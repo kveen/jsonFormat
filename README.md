@@ -5,7 +5,7 @@
         var indentChar = '    ';
         if (/^\s*$/.test(txt)) {
             var options = {
-                title: "调用OSP服务",
+                title: "调用服务",
                 message: "数据为空,无法格式化!"
             };
             bootbox.alert(options);
@@ -16,7 +16,7 @@
         }
         catch (e) {
             var options = {
-                title: "调用OSP服务",
+                title: "调用服务",
                 message: '数据源语法错误,格式化失败!'
             };
             bootbox.alert(options);
